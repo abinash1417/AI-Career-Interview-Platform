@@ -1,0 +1,29 @@
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+.block-container {
+    max-width: 1000px;
+    padding-top: 2rem;
+}
+
+h1 {
+    color: #f59e0b;
+}
+
+.stButton>button {
+    background-color: #f59e0b;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+}
+
+.stButton>button:hover {
+    background-color: #d97706;
+    color: white;
+}
+
+[data-testid="stMetricValue"] {
+    color: #f59e0b;
+}
